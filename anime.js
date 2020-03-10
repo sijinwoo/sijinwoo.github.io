@@ -1,5 +1,5 @@
-let animation = anime({
-    targets: 'div',
+let animateText = anime({
+    targets: 'div.center.text',
     translateY: [
         {value:150, duration:500},
         {value:0, duration:500}
@@ -7,6 +7,15 @@ let animation = anime({
     rotate: 360,
     easing: 'linear',
     loop: true
-  }); 
+}); 
 
-
+let animateKonami = anime({
+    targets: 'div.center.konami',
+    translateY: [
+        {value:150, duration:500},
+        {value:0, duration:500}
+    ],
+    rotate: -360,
+    easing: 'linear',
+    loop: true
+}); 
