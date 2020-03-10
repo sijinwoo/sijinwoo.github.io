@@ -4,6 +4,7 @@ let animateText = anime({
         {value:150, duration:500},
         {value:0, duration:500}
     ],
+    delay: 1000,
     rotate: 360,
     easing: 'linear',
     loop: true
@@ -15,6 +16,7 @@ let animateKonami = anime({
         {value:150, duration:500},
         {value:0, duration:500}
     ],
+    delay: 1000,
     rotate: -360,
     easing: 'linear',
     loop: true
