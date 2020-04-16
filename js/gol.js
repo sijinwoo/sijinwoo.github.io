@@ -10,6 +10,7 @@ function setup() {
     let canvasWidth = Math.floor(window.innerWidth / gridSize) * gridSize;
     let canvasHeight = Math.floor(window.innerHeight / gridSize) * gridSize;
     createCanvas(canvasWidth, canvasHeight);
+    frameRate(24);
     rectMode(CENTER);
     strokeWeight(0.2);
 
