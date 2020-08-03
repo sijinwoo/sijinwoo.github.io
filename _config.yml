@@ -1,7 +1,8 @@
 # Site settings
 title: Embedded.Systems | A blog about everything embedded and more
 description: "A blog about embedded systems and more."
-#url: "http://www.sikenderaliashraf.com/kendiser5000-blog/"
+#url: "http://www.sikenderaliashraf.com/kendiser5000-blog/
+#build_url:"
 github_username: kendiser5000
 author:
   name: "Embedded.Systems"
@@ -9,7 +10,6 @@ author:
   url: "http://www.google.com"
 
 # Build settings
-#baseurl: https://www.sikenderaliashraf.com/kendiser5000-blog/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
@@ -43,17 +43,6 @@ custom_header: false
 custom_nav_footer: false
 reverse: false
 
-# Github Pages settings
-#lsi: false
-#safe: true
-#source: https://github.com/kendiser5000/kendiser5000-blog
-#incremental: false
-#highlighter: rouge
-#gist:
-#  noscript: false
-#kramdown:
-#  math_engine: mathjax
-#  syntax_highlighter: rouge
 
 # Exclude these files from your production _site
 exclude:
