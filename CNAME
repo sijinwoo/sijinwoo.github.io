@@ -1,1 +1,4 @@
-embedded.systems
+type: CNAME
+host: www.embedded.systems
+answer: embedded.systems
+TTL: 300

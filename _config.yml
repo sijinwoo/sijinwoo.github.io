@@ -1,0 +1,64 @@
+# Site settings
+title: Embedded.Systems | A blog about everything embedded and more
+description: "A blog about embedded systems and more."
+#url: "http://www.sikenderaliashraf.com/kendiser5000-blog/"
+github_username: kendiser5000
+author:
+  name: "Embedded.Systems"
+  email: "hello@jacoporabolini.com"
+  url: "http://www.google.com"
+
+# Build settings
+#baseurl: https://www.sikenderaliashraf.com/kendiser5000-blog/ # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+# Github Pages settings
+#lsi: false
+#safe: true
+#source: https://github.com/kendiser5000/kendiser5000-blog
+#incremental: false
+#highlighter: rouge
+#gist:
+#  noscript: false
+#kramdown:
+#  math_engine: mathjax
+#  syntax_highlighter: rouge
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
