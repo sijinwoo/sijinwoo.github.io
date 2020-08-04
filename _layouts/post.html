@@ -2,6 +2,17 @@
 layout: default
 ---
 <article id="post-page">
+	<!-- Look the author details up from the site config. -->
+	{% assign author = site.data.authors[page.author] %}
+
+	<!-- Output author details if some exist. -->
+	{% if author %}
+		<span>
+			<!-- Personal Info. -->
+			Written by <a href="{{ author.web }}">{{ author.name }}</a>
+		</span>
+	{% endif %}
+
 	<h2>{{ page.title }}</h2>		
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
 	<div class="content">
