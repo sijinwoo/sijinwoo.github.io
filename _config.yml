@@ -1,8 +1,8 @@
 # Site settings
 title: Embedded.Systems | A blog about everything embedded and more
 description: "A blog about embedded systems and more."
-url: "https://sijinwoo.github.io/"
-#baseurl: "/sijinwoo.github.io"
+url: "https://sijinwoo.github.io"
+baseurl: "/"
 #build_url:"
 
 
