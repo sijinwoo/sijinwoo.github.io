@@ -1,12 +1,9 @@
 # Site settings
 title: Embedded.Systems | A blog about everything embedded and more
 description: "A blog about embedded systems and more."
-url: "https://www.embedded.systems"
-github_username: sijinwoo
 
 
 # Build settings
-baseurl: /
 markdown: kramdown
 source: .
 destination: ./_site
