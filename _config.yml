@@ -1,13 +1,9 @@
 # Site settings
 title: Embedded.Systems | A blog about everything embedded and more
 description: "A blog about embedded systems and more."
-#url: "http://www.sikenderaliashraf.com/kendiser5000-blog/
+url: "embedded.systems"
 #build_url:"
-github_username: kendiser5000
-author:
-  name: "Embedded.Systems"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.google.com"
+
 
 # Build settings
 markdown: kramdown
@@ -17,7 +13,7 @@ permalink: /:title
 paginate: 8
 paginate_path: /page:num/
 
-baseurl: ""
+baseurl: "embedded.systems"
 # Default values
 defaults:
   -
