@@ -36,6 +36,7 @@ gems:
 
 
 # Custom variables
+newbaseurl: "https://embedded.systems"
 version: "1.2.0"
 
 # Options

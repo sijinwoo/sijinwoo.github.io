@@ -29,7 +29,7 @@ Emerald has two branch:
 - ``gh-pages``: is only for demo site.  
 
 ### Baseurl
-Emerald was thought to be used mainly with Github, in particular into [project site](https://pages.github.com/). For this reason several tags have been included ``{{ site.baseurl }}`` to refer to the "/emerald/" directory.
+Emerald was thought to be used mainly with Github, in particular into [project site](https://pages.github.com/). For this reason several tags have been included ``{{ site.newbaseurl }}`` to refer to the "/emerald/" directory.
 You can change the "baseurl" value into the ``config.yml`` file, to match your directory (for example "/blog/") or the root of your project. In that case you must set the "baseurl" value to "/".
 
 ### Typography
